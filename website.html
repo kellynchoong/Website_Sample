@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?familyPoppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="website.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="Menu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+        <div class="text-box">
+            <h1>World's #1 University</h1>
+            <p>Learn more about Cambridge University by using our website or enrolling in an virtual QnA.</p>
+            <a href="" class="homepage-link">Contact us to know more!</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1> Courses We Offer</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="course-column">
+                <h3>Summer Program</h3>
+                <p>Find out more about our month long summer programs!</p>
+            </div>
+            <div class="course-column">
+                <h3>Degree</h3>
+                <p>Degrees across each college we have to offer.</p>
+            </div>
+            <div class="course-column">
+                <h3>Post-Grad</h3>
+                <p>Further explore our Master's Degree Options!</p>
+            
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1> Our Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="campus-column">
+                <img src="images/Camb.jpg"/>
+                <div class="layer-img">
+                    <br> <h4>CAMBRIDGE</h4>
+                </div>
+            </div>
+            <div class="campus-column">
+                <img src="images/caius.jpeg"/>
+                <div class="layer-img">
+                    <br> <h4>GONVILLE & CAIUS</h4>
+                </div>
+            </div>
+            <div class="campus-column">
+                <img src="images/john2.jpg"/>
+                <div class="layer-img">
+                    <br> <h4>St. John</h4>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Facilities on Campus</h1>
+        <p>Find out more about the facilities we offer around campus!</p>
+        <div class="row">
+            <div class="facilities-column">
+                <img src="images/Pool.jpg">
+                <h4>Swimming Pool</h4>
+                <p>For recreation or not, enjoy a dip in our pool!</p>
+            </div>
+            <div class="facilities-column">
+                <img src="images/Library.webp">
+                <h4>Library</h4>
+                <p>Use one of our Libraries for a change of scenery whilst studying!</p>
+            </div>
+            <div class="facilities-column">
+                <img src="images/Punt.jpg">
+                <h4>Punting</h4>
+                <p>Need a break? Enjoy a punt with your friends arouund campus!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1> What our Student has to say:</h1>
+        <p>Learn more about how our students feel</p>
+        <div class="row">
+            <div class="testimonials-column">
+                <img src="images/Kellyn.jpeg">
+                <div>
+                    <p>I have throughly enjoyed studying at Cambridge University. I have found people of similar interests who I can bond with. The university really prepared me for beyond Higher Education and I strongly believe that I will prosper and flourish as an adult in the real world all thanks to Cambridge</p>
+                    <h3>Kellyn Choong</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="call">
+        <h1>Learn more about applying via UCAS</h1>
+        <a href=""class="homepage-link">LINK TO UCAS</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Cambridge Universtiy</h4>
+        <p>Cambridge University is #1 in the world in terms of University Rankings. <br> We hold our students to the utmost standards and strive to develop our future's critical thinkers.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function Menu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
