@@ -26,7 +26,7 @@ This is a responsive website designed to showcase Cambridge University, its cour
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/cambridge-university-website.git
+   git clone https://github.com/kellynchoong/Website_Sample.git
    ```
 2. Navigate to the project directory:
    ```bash
